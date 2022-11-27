@@ -1,0 +1,238 @@
+/* NAVEGACIÓN */
+.container4 {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu, .container4 {
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.container4 img {
+    -webkit-box-shadow: none;
+}
+
+.menu {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.06);
+}
+
+.logo {
+    width: 90px;
+}
+
+.cart-icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+nav ul {
+    flex: 1;
+    text-align: left;
+    padding-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 0 5px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #465c8cfa;
+    transition: 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 50%;
+}
+
+
+.nav-items {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight: inherit;
+}
+
+.nav-items--cta {
+    border: 1px solid black;
+    display: none;
+}
+
+        /* menu termina*/
+
+        body {
+            background-color: whitesmoke;
+            font-family: 'Segoe UI', Tahoma;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+        }
+
+        h1,
+        h3 {
+            color: #465c8cfa;
+            text-align: center;
+        }
+
+        img {
+            margin-top: 10px;
+            width: 100%;
+            -webkit-box-shadow: 2px 2px 5px #999;
+            -moz-box-shadow: 2px 2px 5px #999;
+        }
+
+        .mision img,
+        .vision img {
+            width: 100px;
+            -webkit-box-shadow: none;
+            margin: 20px;
+        }
+
+        .mision , .vision {
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            align-items:flex-end;
+            text-align: justify;
+        }
+
+        main {
+            width: 50%;
+            align-items: center;
+            margin: auto;
+        }
+
+        .equipo { 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            width: 100%;
+        }
+        
+        .per {
+            display: inline;
+            padding: 15px;
+            margin: 20px;
+            text-align: center;
+            width: 150px;
+            height: 200px;
+            box-shadow: 5 15px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        .equipo img{
+            width: 120px;
+            border-radius: 60px;
+        }
+
+        .equipo img:hover {
+            background-color: rgb(44, 21, 79);
+            color: white;
+        }
+
+        .presentacion p {
+            font-size: larger;
+            background-color: #465c8cfa;
+            color: azure;
+            border-radius: 20px;
+            padding: 30px;
+        }
+
+
+
+
+        /* CONTACTO */
+body.contacto {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.pagcontacto {
+    display: flex;
+    flex-flow: wrap-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto2 {
+    flex: 1;
+    background-image: url(./b2.png);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contacto1 h2 {
+	color: #465c8cfa;
+}
+
+.contacto1 {
+    flex: 2;
+    padding: 20px;
+    margin: 30px;
+    min-width: 300px;
+    border-radius: 10px;
+}
+
+.contacto1 input,
+.contacto1 textarea {
+    border-radius: 5px;
+    padding: 8px;
+    border: solid lightgrey 1px;
+    width: 70%;
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
+    background-color: white;
+}
+
+body.contacto iframe {
+    border-radius: 10px;
+}
+
+.contacto button {
+    background-color: #465c8cfa;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.contacto button:hover {
+    background: #2d3c5bfa;
+}
+
+.contacto span {
+    line-height: 25px;
+    font-size: 15px;
+}
