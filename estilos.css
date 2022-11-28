@@ -1,3 +1,15 @@
+.puestos {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.puestos h2 {
+    background-color:#465c8cfa;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 2px;
+}
 /* NAVEGACIÓN */
 .container4 {
     width: 80%;
